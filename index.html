@@ -10,11 +10,89 @@
 
 </head>
 
-<body>
-    <header>
-        <img src="images/messi-neymar-mbappe.png" alt="">
-        <h1>Top Five Player Selection</h1>
+<body class="bg-stone-900">
+    <header class="bg-black">
+        <div class="flex justify-around">
+            <img src="images/messi-neymar-mbappe.png" alt="">
+
+            <div class="text-center mt-32 mb-32 mr-4">
+                <h1 class="text-5xl	font-bold text-rose-400 font-serif text-center mb-4">Select Top Five Best Player
+                </h1>
+                <p class="text-white text-center text-purple-100 text-lg font-medium">Paris Saint-Germain Football
+                    Club,
+                    commonly referred to as Paris Saint-Germain, Paris, Paris SG or simply PSG is a professional
+                    football club based in Paris, France. They compete in Ligue 1, the top division of French football.
+                </p>
+            </div>
+        </div>
+
     </header>
+
+    <main>
+        <section class="w-3/4 mx-auto mt-32 mb-64">
+            <div class="grid grid-cols-4 gap-4">
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <img src="images/messi.png" alt="">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-3">Lionel Messi</h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Select</button>
+                </div>
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <img src="images/neymar.png" alt="">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-3">Neymar Jr.</h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Select</button>
+                </div>
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <img src="images/mbappe.png" alt="">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-3">Kylian Mbappé</h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Select</button>
+                </div>
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-6 mb-4">Selected-V</h5>
+                    <hr>
+                </div>
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <img src="images/machado.png" alt="">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-3">Vitor Machado</h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Select</button>
+                </div>
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <img src="images/ramos.png" alt="">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-3">Sergio Ramos</h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Select</button>
+                </div>
+                <div class="bg-black border-solid border-slate-50 h-96">
+                    <img src="images/renato.png" alt="">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-3">Renato Sanches</h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Select</button>
+                </div>
+                <div class="bg-black border-solid border-slate-50">
+                    <h5 id="" class="text-white text-2xl font-bold text-center mt-6 mb-4">Budget</h5>
+                    <hr>
+                    <h5 id="" class="text-white ml-4">Per Player<input class="w-1/2 mt-4 mr-4 ml-4" id="player-price"
+                            type="text">
+                    </h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-16 py-2 mt-12 mb-8 ml-4 rounded">Calculate</button>
+                    <h5 id="" class="text-white ml-4">Player Expenses <span id="" class="ml-4">$</span> </h5>
+                    <h5 id="" class="text-white ml-4">Manager<input class="w-1/2 mt-4 mr-4 ml-4" id="player-price"
+                            type="text">
+                    </h5>
+                    <h5 id="" class="text-white ml-4">Coach<input class="w-1/2 mt-4 mr-4 ml-9" id="player-price"
+                            type="text">
+                    </h5>
+                    <button id=""
+                        class="text-white text-xl bg-sky-600 px-20 py-2 mt-12 mb-8 ml-4 rounded">Total</button>
+                    <h5 id="" class="text-white ml-4 mb-8">Total <span id="" class="ml-16 text-rose-600">$</span> </h5>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="js/selection.js"></script>
 </body>
