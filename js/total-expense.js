@@ -22,5 +22,14 @@ document.getElementById('btn-total-calculation').addEventListener('click', funct
     const totalExpenseElementString = totalExpenseElement.innerText;
     let newTotalExpense = parseInt(totalExpenseElementString);
     newTotalExpense = totalExpense;
-    totalExpenseElement.innerText = newTotalExpense;
+
+    if (newManagerExpense < 0) {
+        alert('You can not give negative value');
+    }
+    else if (newCoachExpense < 0) {
+        alert('You can not give negative value');
+    }
+    else {
+        return totalExpenseElement.innerText = newTotalExpense;
+    }
 });

@@ -61,6 +61,6 @@ document.getElementById('btn-ramos-select').addEventListener('click', function (
 document.getElementById('btn-renato-select').addEventListener('click', function () {
     const choosePlayer6 = document.getElementById('renato');
     const selectPlayer6 = choosePlayer6.innerText;
-    alert('Can not add ' + selectPlayer6);
+    alert('Can not add ' + selectPlayer6 + ',' + ' ' + 'beacuse you have already taken your best five players.');
 });
 

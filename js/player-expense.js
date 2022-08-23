@@ -11,5 +11,11 @@ document.getElementById('btn-player-calculation').addEventListener('click', func
     const playerExpenseElementString = playerExpenseElement.innerText;
     let playerExpense = parseInt(playerExpenseElementString);
     playerExpense = playerPriceTotal;
-    playerExpenseElement.innerText = playerExpense;
+
+    if (playerExpense > 0) {
+        return playerExpenseElement.innerText = playerExpense;
+    }
+    else {
+        alert('You can not give negative value');
+    }
 });
